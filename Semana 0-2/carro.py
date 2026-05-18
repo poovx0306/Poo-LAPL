@@ -38,4 +38,4 @@ class Carro:
         print(f"Método ubicar")
 
 # Creación del objeto (Instanciación)
-m1_carro = Carro("Mazda", "3", "XYZ-789", "Azul", 2023, "12,000 km", "Automático", 4, "Gasolina", "Estación B-2")
+m1_carro = Carro("Mazda", "3", "XYZ-789", "Azul", 2023, "12,000 km", "180 K/h", 4, "Gasolina", "Estación B-2")
