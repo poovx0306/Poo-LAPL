@@ -13,38 +13,38 @@ class Mesa:
 
                 print(f"Color: {self.color}")
                 print(f"Anchura: {self.anchura}")
-                                                                                                                print(f"Altura: {self.altura}")
-                                                                                                                        print(f"Forma: {self.forma}")
-                                                                                                                                print(f"Material: {self.material}")
-                                                                                                                                        print(f"Peso máximo: {self.peso_max}")
-                                                                                                                                                print(f"Estilo: {self.estilo}")
-                                                                                                                                                        print(f"Numero de patas: {self.patas}")
-                                                                                                                                                                print(f"Marca: {self.marca}")
-                                                                                                                                                                        print(f"Largo: {self.largo}")
+                print(f"Altura: {self.altura}")
+                print(f"Forma: {self.forma}")
+                print(f"Material: {self.material}")
+                print(f"Peso máximo: {self.peso_max}")
+                print(f"Estilo: {self.estilo}")
+                print(f"Numero de patas: {self.patas}")
+                print(f"Marca: {self.marca}")
+                print(f"Largo: {self.largo}")
                                                                                                                                                                             
-                                                                                                                                                                                def cargar():
-                                                                                                                                                                                        print(f"La mesa carga.")
+        def cargar(self):
+                print(f"La mesa carga.")
                                                                                                                                                                                             
-                                                                                                                                                                                                def limpiar():
-                                                                                                                                                                                                        print(f"La mesa puede ser limpiada.")
+        def limpiar(self):
+                print(f"La mesa puede ser limpiada.")
                                                                                                                                                                                                             
-                                                                                                                                                                                                                def mover():
-                                                                                                                                                                                                                        print(f"La mesa se puede cargar.")
+        def mover(self):
+                print(f"La mesa se puede cargar.")
 
-                                                                                                                                                                                                                            def plegar():
-                                                                                                                                                                                                                                    print(f"La mesa puede ser plegada.")
+        def plegar(self):
+                print(f"La mesa puede ser plegada.")
 
-                                                                                                                                                                                                                                        def desplegar():
-                                                                                                                                                                                                                                                print(f"La mesa puede ser desplegada.")
+        def desplegar(self):
+                print(f"La mesa puede ser desplegada.")
+                   
+mesa_laboratorio=Mesa("Blanca", "1.5 m", ".75 m", "Rectangular", "Madera", "120 Kg", "Moderno", 4, "IKEA" , "1.20 m")
 
-                                                                                                                                                                                                                                                mesa_laboratorio=Mesa(
-                                                                                                                                                                                                                                                    "Blanca", 
-                                                                                                                                                                                                                                                        "10 cm",
-                                                                                                                                                                                                                                                            "25 cm", 
-                                                                                                                                                                                                                                                                "Circular", 
-                                                                                                                                                                                                                                                                    "Madera",
-                                                                                                                                                                                                                                                                        "100 Kg",
-                                                                                                                                                                                                                                                                            "Elegante",
-                                                                                                                                                                                                                                                                                "4",
-                                                                                                                                                                                                                                                                                    "IKEA",
-                                                                                                                                                                                                                                                                                        "120 cm")
+mesa_laboratorio.cargar()
+
+mesa_laboratorio.limpiar()
+
+mesa_laboratorio.mover()
+
+mesa_laboratorio.plegar()
+
+mesa_laboratorio.desplegar()
