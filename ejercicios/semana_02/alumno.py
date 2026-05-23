@@ -24,12 +24,16 @@ class Alumno:
 
     def Reprobar(self):
         print(f"El alumno puede reprobar")
+
     def Aprobar(self):
         print(f"El alumno puede aprobar")
+    
     def Estudiar(self):
         print(f"El alumno puede estudiar")
+
     def Preguntar(self):
         print(f"El alumno puede preguntar dudas")
+    
     def Hacer_examen(self):
         print(f"El alumno puede hacer un examen")
 
