@@ -24,16 +24,12 @@ class Telefono:
 
     def ver_videos(self):
         print(f"Se pueden ver videos")
-
     def jugar(self):
         print(f"Se puede jugar")
-
     def crear_documentos(self):
         print(f"Se pueden crear documentos")
-
     def tomar_fotos(self):
         print(f"Se pueden tomar fotos")
-
     def reproducir_musica(self):
         print(f"Se puede reproducir música")
 
@@ -49,7 +45,6 @@ SamsungS26Ultra = Telefono (
     "IP68",
     "16.23 cm"
 )
-
 SamsungS26Ultra.crear_documentos
 SamsungS26Ultra.jugar
 SamsungS26Ultra.reproducir_musica

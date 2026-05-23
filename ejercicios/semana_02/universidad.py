@@ -20,7 +20,22 @@ class Universidad:
         print (f"Talleres {talleres}")
         print (f"Cantidad de salones: {cantidad_salones}")
         print (f"Rector: {rector}")
-        
+
+    def incribir(self):
+        print(f"Se pueden inscribir en la universidad")
+    def realizar_eventos(self):
+        print(f"La universidad puede realizar eventos")
+    def realizar_graduacion(self):
+            print("Se está llevando a cabo la ceremonia de graduación de la generación saliente.")
+
+    def abrir_biblioteca(self):
+            print("La biblioteca central ha abierto sus puertas para que los alumnos estudien.")
+
+    def organizar_evento(self):
+            print("Se está organizando una feria de proyectos de software y tecnología en el campus.")    
+
+utec = Universidad("logo.jpg", "TICs, Contaduria", "Santiago", "SII", "Presencial", "Becas, talleres", "Ahuehuetitla", "Artes visuales, popotillo", 54, "Tito Dorante")
+                                                                                                                                                                                                     
         
 
 
